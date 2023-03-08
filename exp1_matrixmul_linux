@@ -49,6 +49,6 @@ int main()
 	}
 	gettimeofday(&end,NULL);//to
 	float timeuse=(end.tv_sec-start.tv_sec)*1000000+(end.tv_usec-start.tv_usec);//微秒
-	std::cout<<"重复十次，平均耗时"<<timeuse/10.0<<std::endl;
+	std::cout<<"重复十次，平均耗时"<<timeuse/10.0<<"微秒"<<std::endl;
 	return 0;
 }
