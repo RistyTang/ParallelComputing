@@ -1,2 +1,1 @@
-# ParallelComputing
-2023NKU并行程序设计
+# 普通高斯消去的GPU实现
